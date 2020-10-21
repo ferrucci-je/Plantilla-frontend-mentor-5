@@ -1,0 +1,42 @@
+section {
+    color: white;
+    background-color: hsl(179, 62%, 43%);
+    padding-top: 3%;
+    padding-left: 5%;
+    border-radius: 3px;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 3%;    
+    h2 {
+        padding-top: 3%;
+        font-size: 16px;
+        padding-bottom: 7%;
+    }
+    span#dollar {
+        padding-top: 3%;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    span#month {
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 3%;
+        text-align: center;
+        opacity: 50%;
+    }
+    p {
+        padding-top: 3%;
+        font-size: 16px;
+        opacity: 85%;
+    }
+    button {
+        margin-top: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 95%;
+        background-color: $yellow-color;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}

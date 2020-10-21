@@ -1,0 +1,22 @@
+@media screen and (min-width: 600px) {
+    body {
+        max-width: 1000px;
+        max-height: 800px;
+    .container {
+        display: flex;
+        flex-direction: row;
+    section {
+        width: 50%;
+        margin-right: 0px;
+
+    }
+    footer {
+        width: 50%;
+        margin-left: 0px;
+        h3{
+            padding-top: 10%;
+        }
+    }
+}
+}
+}

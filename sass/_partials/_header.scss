@@ -1,0 +1,32 @@
+header {
+    margin-top: 20%;
+    margin-left: 5%;
+    background-color: white;
+    padding-bottom: 10%;
+    margin-right: 3%;
+    padding-right: 5%;
+    border-radius: 5px;
+    h1 {
+    color: $cyna-color;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-right: 5%;
+    font-weight: 700;
+}
+    h2 {
+        color: $yellow-color;
+        font-size: 14px;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    p {
+        opacity: 40%;
+        padding-left: 5%;
+        padding-top: 5%;
+        font-size: 13px;
+        line-height: 20px;
+        padding-right: 5%;
+    }
+}

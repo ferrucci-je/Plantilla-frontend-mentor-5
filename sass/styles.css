@@ -1,0 +1,161 @@
+@media screen and (min-width: 600px) {
+  body {
+    max-width: 1000px;
+    max-height: 800px;
+  }
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .container section {
+    width: 50%;
+    margin-right: 0px;
+  }
+  body .container footer {
+    width: 50%;
+    margin-left: 0px;
+  }
+  body .container footer h3 {
+    padding-top: 10%;
+  }
+}
+
+footer {
+  background-color: #2ab2af;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  opacity: 75%;
+  margin-left: 5%;
+  margin-right: 3%;
+  border-radius: 5px;
+}
+
+footer h3 {
+  padding-top: 5%;
+  font-size: 16px;
+  padding-bottom: 5%;
+}
+
+footer p {
+  padding-top: 2%;
+  opacity: 70%;
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+section {
+  color: white;
+  background-color: #2ab2af;
+  padding-top: 3%;
+  padding-left: 5%;
+  border-radius: 3px;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+section h2 {
+  padding-top: 3%;
+  font-size: 16px;
+  padding-bottom: 7%;
+}
+
+section span#dollar {
+  padding-top: 3%;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+section span#month {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 3%;
+  text-align: center;
+  opacity: 50%;
+}
+
+section p {
+  padding-top: 3%;
+  font-size: 16px;
+  opacity: 85%;
+}
+
+section button {
+  margin-top: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 95%;
+  background-color: #c0df34;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+header {
+  margin-top: 20%;
+  margin-left: 5%;
+  background-color: white;
+  padding-bottom: 10%;
+  margin-right: 3%;
+  padding-right: 5%;
+  border-radius: 5px;
+}
+
+header h1 {
+  color: #2ab2af;
+  font-size: 18px;
+  padding-left: 5%;
+  padding-top: 7%;
+  padding-right: 5%;
+  font-weight: 700;
+}
+
+header h2 {
+  color: #c0df34;
+  font-size: 14px;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+header p {
+  opacity: 40%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 13px;
+  line-height: 20px;
+  padding-right: 5%;
+}
+
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 20%;
+  border-radius: 25px;
+  background-color: #e5eff5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=styles.css.map */
